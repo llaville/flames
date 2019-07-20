@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+
+  stackedit:
+    # https://hub.docker.com/r/benweet/stackedit/
+    image: benweet/stackedit:${STACKEDIT_SERVER:-latest}
+    ports:
+      - "${LOCAL_LISTEN_ADDR}${HOST_PORT_STACKEDIT:-8181}:8080"
+    networks:
+      app_net:
+        ipv4_address: 172.16.238.181

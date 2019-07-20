@@ -1,0 +1,17 @@
+
+################################################################################
+###
+### 11. Stackeditor
+###
+################################################################################
+
+###
+### Choose Stackeditor Server Image
+###
+#STACKEDIT_SERVER=v5.14.5
+STACKEDIT_SERVER=latest
+
+###
+### Expose Stackeditor to Host
+###
+HOST_PORT_STACKEDIT=8181

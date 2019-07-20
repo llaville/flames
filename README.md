@@ -20,6 +20,7 @@ with many more service and tools.
 | [elastic](flames/elastic/) | Elastic GUI clients |
 | [revealjs](flames/revealjs/) | The HTML Presentation Framework |
 | [selenium](flames/selenium/) | Selenium is a portable framework for testing web applications |
+| [stackedit](flames/stackedit/) | Stackedit is in-browser Markdown editor |
 | [swaggerapi](flames/swaggerapi/) | Swagger is a framework that helps developers design, build, document, and consume RESTful Web services |
 | [webgrind](flames/webgrind/) | Webgrind is a Xdebug Profiling Web Frontend in PHP |
 
