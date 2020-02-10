@@ -12,4 +12,4 @@ services:
       app_net:
         ipv4_address: 172.16.238.130
     volumes:
-      - ${DEVILBOX_PATH}/data/revealjs:/revealjs/presentations
+      - ./data/revealjs:/revealjs/presentations
